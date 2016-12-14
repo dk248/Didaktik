@@ -1,2 +1,2 @@
-# Didaktik
-Projekt- Elearningd
+# Didaktik für Tutorate
+Projekt - E-Learning
