@@ -1,7 +1,9 @@
 # Didaktik für Tutorate
 Projekt - E-Learning
 
-Erklärung Orderstruktur [Lukas]
+Die Website befindet sich im Ordner [website](website).
+
+Erklärung der Website-Orderstruktur:
 //Didaktik/website:
 - [index.html](website/index.html)
 - [css (dir)](website/css)
@@ -16,5 +18,7 @@ Erklärung Orderstruktur [Lukas]
 - Backgroud Images
 - Bilder für Theorie, Beispiel und Video
 
-//Didaktik/website/js:
+//[Didaktik/website/js](website/js):
 - [Bootstrap Javascript](website/js/bootstrap.js)
+
+Auf eine tolle Projektarbeit! Cheers :)
