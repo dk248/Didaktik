@@ -3,7 +3,7 @@ Projekt - E-Learning
 
 Erklärung Orderstruktur [Lukas]
 //Didaktik/website:
-- index.html
+- [Hier geht's zur Index Date](index.html)
 - css (dir)
 - img (dir)
 - js (dir)
