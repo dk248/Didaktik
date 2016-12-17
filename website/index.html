@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Didaktik in Tutorien</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+
+    <!-- Christian: Verlinkung richtig. Gute Arbeit" -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
   </head>
   <body>
     <div class="container">
@@ -92,5 +94,15 @@
         </div>
       </div>
     </div>
+
+    <!-- Sehr gut wie ihr Bootstrap hier eingebundet habt.
+    Ich habe eure JavascriptDatei an das Ende eingefügt, da Javascript 
+    Block-Rendering sind, das heißt die Seite läd nicht weiter bis die ganze
+    Javascriptdatei heruntergeladen wurde. In der Regel stehen Javascriptdateien
+    daher vor dem Ende des body-Tags-->
+    <script type="text/javascript" src="js/vendor/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/vendor/jquery-migrate-1.4.1.min.js"></script>
+    <script type="text/javascript" src="js/vendor/bootstrap.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
   </body>
 </html>
