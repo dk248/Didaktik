@@ -21,4 +21,8 @@ Erklärung der Website-Orderstruktur:
 //[Didaktik/website/js](website/js):
 - [Bootstrap Javascript](website/js/bootstrap.js)
 
+//[Prototyp](prototyp/):
+- [Prototyp 1](Prototyp_1_final.docx) - lässt sich testen - voll funktionsfähig
+- [Prototyp 2](Prototyp_2_final.docx) - optimiert - nicht voll funktionsfähig
+
 Auf eine tolle Projektarbeit! Cheers :)
