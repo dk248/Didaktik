@@ -1,6 +1,8 @@
 # Didaktik für Tutorate
 Projekt - E-Learning
 
+Achtung: Wer von Git Bash zu sehr genervt ist kann einfach GitHub Desktop verwenden. Da kann man auch seine Commits speichern, eine Beschreibung des Commits anlegen und mit dem Server synchronisieren - alles ohne die Verwendung von den Befehlen. ;)
+
 Die Website befindet sich im Ordner [website](website).
 
 Erklärung der Website-Orderstruktur:
