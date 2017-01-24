@@ -17,6 +17,8 @@ body {
 }
 
 .title {
+  display: block;
+  padding: 15px 20px;
   color: #F1ECEC;
   text-align: center;
   background-color: green;
