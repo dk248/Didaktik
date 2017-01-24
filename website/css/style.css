@@ -25,6 +25,14 @@ body {
   font-style: "verdana"
 }
 
+.menu {
+  display: block;
+  padding: 15px 20px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #7f7f7f;
+}
+
 .title-logo {
   margin: 20px;
 }
