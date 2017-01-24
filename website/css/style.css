@@ -1,8 +1,10 @@
 body {
   font-family: 'Lato', sans-serif;
-  color: #747704;
+  color: #747704 ;
   font-weight: 300;
 }
+
+
 
 .text-muted {
   color: #BCBBBB;
@@ -14,6 +16,13 @@ body {
 
 .title-super {
   font-size: 40px;
+}
+
+.title {
+  color: #F1ECEC;
+  text-align: center;
+  background-color: green;
+  font-style: 
 }
 
 .title-logo {
