@@ -4,8 +4,6 @@ body {
   font-weight: 300;
 }
 
-
-
 .text-muted {
   color: #BCBBBB;
 }
@@ -22,7 +20,7 @@ body {
   color: #F1ECEC;
   text-align: center;
   background-color: green;
-  font-style: 
+  font-style: "verdana"
 }
 
 .title-logo {
