@@ -49,13 +49,21 @@ body {
   padding-left: 0px;
   padding-right: 0px;
 }
+
 #big-background-image {
   background-image: url("http://placehold.it/500x500");
   height: 500px;
   width: 500px;
 }
+
 #slim-background-image {
   background-image: url("http://placehold.it/166x500");
   height: 500px;
   width: 166px;
+}
+
+#contact-bg-img {
+  background-image: url(http://placehold.it/1000x100);
+  height: 100px;
+  width: 1000px;
 }
