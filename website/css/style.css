@@ -54,6 +54,10 @@ body {
   margin: 0;
 }
 
+#padding1 {
+  padding: 30px;
+}
+
 #big-background-image {
   background-image: url("http://placehold.it/500x500");
   height: 500px;
