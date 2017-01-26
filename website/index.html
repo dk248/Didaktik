@@ -11,17 +11,15 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
-
   </head>
   <body>
     <div class="container">
       <div class="row">
         <div class="col-md-12 text-center text-uppercase">
-          <h1 class="title title-super text-thin"> Willkommen bei Didaktik für Tutorien </h1>
-          <hr>
+          <h1 class="title title-super no-margin">Willkommen bei Didaktik für Tutorien</h1> <!-- Welcome-Header erscheint nur auf der Startseite oberhalb des Menüs -->
         </div>
       </div>
-      <div class="row">
+      <div class="row menu">
         <div class="col-md-2">
           <p><b>Startseite</b></p>
         </div>
@@ -31,6 +29,7 @@
         <div class="col-md-2">
           <p>Herausforderungen</p>
         </div>
+        <div class="col-md-4"></div> <!-- Platzhalter um Kontakt und Impressum nach rechts zu schieben. -->
         <div class="col-md-1">
           <p>Kontakt</p>
         </div>
@@ -41,58 +40,47 @@
       <div class="row">
         <div class="col-xl-6 col-md-6 col-sm-12 col-xs-12">
           <section id="big-background-image" class="img-responsive" alt="Big Image">
-            <h1>Lernumgebung</h1>
-            <h2>Diese Lernumgebung vermittelt die Grundlagen der Didaktik in Tutorien</h2>
+            <h1 class="no-margin" id="padding1">Lernumgebung</h1>
+            <h2 id="padding1">Diese Lernumgebung vermittelt die Grundlagen der Didaktik in Tutorien</h2>
           </section>
         </div>
         <div class="col-xl-2 col-md-2 col-sm-4 col-xs-12">
           <section id="slim-background-image" class="img-responsive" alt="Slim Image">
             <p>Herausforderung #1</p>
+            <p>Motivation</p>
           </section>
         </div>
         <div class="col-xl-2 col-md-2 col-sm-4 col-xs-12">
           <section id="slim-background-image" class="img-responsive" alt="Slim Image">
             <p>Herausforderung #2</p>
+            <p>Aufmerksamkeit</p>
           </section>
         </div>
         <div class="col-xl-2 col-md-2 col-sm-4 col-xs-12">
           <section id="slim-background-image" class="img-responsive" alt="Slim Image">
             <p>Herausforderung #3</p>
+            <p>Komplexität<p>
           </section>
         </div>
       </div>
       <div class="row">
         <div class="col-md-12">
-          <img class="img-responsive" src="http://placehold.it/1140x100" alt="Contact Image">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6">
-          <h1>Lernumgebung</h1>
-          <h2>Diese Lernumgebung vermittelt die Grundlagen der Didaktik in Tutorien</h2>
-        </div>
-        <div class="col-md-3">
-          <h1>Herausforderung 1</h1>
-          <h2 class="text-uppercase">Motivation</h2>
-        </div>
-        <div class="col-md-3">
-          <h1>Herausforderung 2</h1>
-          <h2 class="text-uppercase">Aufmerksamkeit</h2>
-        </div>
-        <div class="col-md-3">
-          <h1>Herausforderung 2</h1>
-          <h2 class="text-uppercase">Komplexität</h2>
-        </div>
-        <div class="col-md-3">
-          <h1>Herausforderung 2</h1>
-          <h2 class="text-uppercase">Zeitmanagement</h2>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <h2 class="text-center">Stell uns deine Fragen oder sende uns dein eigenes Problem.</h2>
-          <h2 class="text-uppercase text-center">Jetzt kontaktieren</h2>
-        </div>
+          <section class="img-responsive" id="contact-bg-img" alt="Contact Image">
+            <h2 class="text-center no-margin">Stell uns deine Fragen oder sende uns dein eigenes Problem.</h2>
+            <h2 class="text-uppercase text-center">Jetzt kontaktieren</h2>
+			<form>
+			  <div class="col-6-md form-group">
+			    <label class="sr-only" for="exampleInputName3">Dein Name</label>
+			    <input type="name" class="col-6-md form-control" id="exampleInputName3" placeholder="Name">
+			  </div>
+			  <div class="col-6-md form-group">
+			    <label class="r-only" for="exampleInputEmail3">Email address</label>
+			    <input type="email" class="col-6-md form-control" id="exampleInputEmail3" placeholder="Email">
+			  </div>
+			  <textarea class="col-md-9 form-control" rows="3">Erläutere hier deine Fragen oder dein Problem.</textarea>
+			  <button type="submit" class="btn btn-default">Senden</button>
+			</form>          
+          </section>
       </div>
     </div>
 

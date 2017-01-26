@@ -17,10 +17,20 @@ body {
 }
 
 .title {
+  display: block;
+  padding: 15px 20px;
   color: #F1ECEC;
   text-align: center;
   background-color: green;
   font-style: "verdana"
+}
+
+.menu {
+  display: block;
+  padding: 15px 20px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #7f7f7f;
 }
 
 .title-logo {
@@ -39,13 +49,29 @@ body {
   padding-left: 0px;
   padding-right: 0px;
 }
+
+.no-margin {
+  margin: 0;
+}
+
+#padding1 {
+  padding: 30px;
+}
+
 #big-background-image {
   background-image: url("http://placehold.it/500x500");
   height: 500px;
   width: 500px;
 }
+
 #slim-background-image {
   background-image: url("http://placehold.it/166x500");
   height: 500px;
   width: 166px;
+}
+
+#contact-bg-img {
+  background-image: url(http://placehold.it/1000x300);
+  height: 300px;
+  width: 1000px;
 }
