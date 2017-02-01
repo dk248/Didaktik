@@ -20,7 +20,7 @@ body {
   display: block;
   padding: 15px 20px;
   color: #F1ECEC;
-  text-align: center;
+Â Â text-align: center;
   background-color: green;
   font-style: "verdana"
 }
@@ -52,6 +52,14 @@ body {
 
 .no-margin {
   margin: 0;
+}
+
+.footer {
+	display: block;
+	padding: 15px 20px;
+	font-weight: 700;
+	color: #fff;
+	background-color: #7f7f7f;
 }
 
 #padding1 {
