@@ -11,10 +11,11 @@
     <script src="http://www.w3schools.com/lib/w3data.js"></script>
 
     <!-- Christian: Verlinkung richtig. Gute Arbeit" -->
-    <link href="../css/bootstrap.css" rel="stylesheet">
-    <link href="../css/style.css" rel="stylesheet">
+    <link href="/css/bootstrap.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
   </head>
   <body>
+
     <div class="container">
       <div class="row menu">
         <div class="col-md-2">
@@ -34,39 +35,26 @@
           <p>Impressum</p>
         </div>
       </div>
+
       <div class="row">
-      <button class="accordion">Section 1</button>
+        <button class="accordion">Section 1</button>
         <div class="panel">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
 
-      <button class="accordion">Section 2</button>
+        <button class="accordion">Section 2</button>
         <div class="panel">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
 
-      <button class="accordion">Section 3</button>
+        <button class="accordion">Section 3</button>
         <div class="panel">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
+
       </div>
-      <!-- Script für Accordion -->
-      <script>
-      var acc = document.getElementsByClassName("accordion");
-      var i;
-
-      for (i = 0; i < acc.length; i++) {
-        acc[i].onclick = function() {
-          this.classList.toggle("active");
-          var panel = this.nextElementSibling;
-          if (panel.style.maxHeight){
-            panel.style.maxHeight = null;
-          } else {
-            panel.style.maxHeight = panel.scrollHeight + "px";
-          } 
-        }
-      }
-      </script>
+    <!-- Ihr hattet vergessen, die Div-Box zu schließen -->
+    </div>
 
     <!-- Füge Footer ein -->
     <!-- http://www.w3schools.com/howto/howto_html_include.asp -->
