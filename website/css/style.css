@@ -1,40 +1,9 @@
+
+/* General */
 body {
   font-family: 'Lato', sans-serif;
   color: #747704 ;
   font-weight: 300;
-}
-
-.text-muted {
-  color: #BCBBBB;
-}
-
-.text-thin {
-  font-weight: 100;
-}
-
-.title-super {
-  font-size: 40px;
-}
-
-.title {
-  display: block;
-  padding: 15px 20px;
-  color: #F1ECEC;
-  text-align: center;
-  background-color: green;
-  font-style: "verdana"
-}
-
-.menu {
-  display: block;
-  padding: 15px 20px;
-  font-weight: 700;
-  color: #fff;
-  background-color: #7f7f7f;
-}
-
-.title-logo {
-  margin: 20px;
 }
 
 @media (min-width: 1200px) {
@@ -54,6 +23,84 @@ body {
   margin: 0;
 }
 
+/* Text-Style */
+.text-muted {
+  color: #BCBBBB;
+}
+
+.text-thin {
+  font-weight: 100;
+}
+
+/* Welcome-Title-Style */
+.title-super {
+  font-size: 40px;
+}
+
+.title {
+  display: block;
+  padding: 15px 20px;
+  color: #F1ECEC;
+  text-align: center;
+  background-color: green;
+  font-style: "verdana"
+}
+
+.title-logo {
+  margin: 20px;
+}
+
+/* Menü */
+.menu {
+  display: block;
+  padding: 0px 20px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #7f7f7f;
+}
+
+/* Dropdown */
+.dropbtn {
+    background-color: #7f7f7f;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+/* Accordion */
 button.accordion {
     background-color: #eee;
     color: #444;
@@ -79,6 +126,7 @@ div.panel {
     transition: max-height 0.2s ease-out;
 }
 
+/* Footer */
 .footer {
 	display: block;
 	padding: 15px 20px;
@@ -87,6 +135,7 @@ div.panel {
 	background-color: #7f7f7f;
 }
 
+/* IDs */
 #padding1 {
   padding: 30px;
 }
