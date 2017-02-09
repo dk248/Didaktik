@@ -46,6 +46,25 @@ body {
   font-style: "verdana"
 }
 
+.title-mittel {
+  display: block;
+  padding: 10px 15px;
+  color: #F1ECEC;
+  text-align: center;
+  font-size: 25px;
+  font-style: "verdana"
+}
+
+.title-small {
+  display: block;
+  padding: 10px 15px;
+  color: rgb(0,0,0);
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: "verdana"
+}
+
 .title-logo {
   margin: 20px;
 }
@@ -180,6 +199,10 @@ div.panel {
 /* IDs */
 #padding1 {
   padding: 30px;
+}
+
+#padding2 {
+  padding: 15px;
 }
 
 #big-background-image {
