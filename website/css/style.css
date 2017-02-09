@@ -183,12 +183,24 @@ div.panel {
 }
 
 #big-background-image {
-  background-image:url("file:///D:/Dokumente/_Uni%20Freiburg/Semester%205/E-Learning/Didaktik/website/img/1.jpg_500px.jpg");
+  background-image:url("https://github.com/dk248/Didaktik/blob/master/website/img/1.jpg_500px.jpg?raw=true");
   height: 500px;
   width: 500px;
 }
 
-#slim-background-image {
+#slim-background-image1 {
+  background-image: url("http://placehold.it/166x500");
+  height: 500px;
+  width: 166px;
+}
+
+#slim-background-image2 {
+  background-image: url("http://placehold.it/166x500");
+  height: 500px;
+  width: 166px;
+}
+
+#slim-background-image3 {
   background-image: url("http://placehold.it/166x500");
   height: 500px;
   width: 166px;
