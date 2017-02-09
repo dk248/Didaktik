@@ -56,7 +56,7 @@ body {
     background-image: url('/img/img_parallax.jpg');
 
     /* Full height */
-    height: 300px; 
+    height: 300px;
 
     /* Center and scale the image nicely */
     background-position: center;
@@ -183,7 +183,7 @@ div.panel {
 }
 
 #big-background-image {
-  background-image: url("http://placehold.it/500x500");
+  background-image:url("file:///D:/Dokumente/_Uni%20Freiburg/Semester%205/E-Learning/Didaktik/website/img/1.jpg_500px.jpg");
   height: 500px;
   width: 500px;
 }
