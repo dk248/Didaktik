@@ -69,20 +69,6 @@ body {
   margin: 20px;
 }
 
-/* Title-Picture */
-.title-picture {
-    /* The image used */
-    background-image: url('/img/img_parallax.jpg');
-
-    /* Full height */
-    height: 300px;
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 /* Dropdown Navbar */
 
 ul.topnav {
@@ -159,6 +145,27 @@ ul.topnav li.icon {display: none;}
     display: block;
     text-align: left;
   }
+}
+
+/* Spezieller Header für Herausforderungen */
+.header-ch {
+    position: absolute;
+    /* left: 0; */
+    top: 248px;
+    background-color: rgba(127, 127, 127, 0.7);
+}
+
+.title-picture {
+    /* The image used */
+    background-image: url('/img/img_parallax.jpg');
+
+    /* Full height */
+    height: 300px;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* Accordion */
