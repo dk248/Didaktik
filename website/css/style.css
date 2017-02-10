@@ -71,7 +71,7 @@ body {
 
 /* Dropdown Navbar */
 
-.header {
+#header {
   margin: 0;
   background-color: #7f7f7f;
 }
@@ -151,7 +151,7 @@ ul.topnav li.icon {display: none;}
 }
 
 /* Spezieller Header für Herausforderungen */
-.header-ch {
+#header-ch {
     margin-top: 248px;
     background-color: rgba(127, 127, 127, 0.7);
 }
