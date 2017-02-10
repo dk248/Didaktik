@@ -214,25 +214,25 @@ div.panel {
 }
 
 #big-background-image {
-  background-image:url("https://github.com/dk248/Didaktik/blob/master/website/img/1.jpg_500px.jpg?raw=true");
+  background-image:url("../img/1.jpg_500px.jpg");
   height: 500px;
   width: 500px;
 }
 
 #slim-background-image1 {
-  background-image: url("https://github.com/dk248/Didaktik/blob/master/website/img/H1_Motivation_166px.png?raw=true");
+  background-image: url("../img/H1_Motivation_166px.png");
   height: 500px;
   width: 166px;
 }
 
 #slim-background-image2 {
-  background-image: url("https://github.com/dk248/Didaktik/blob/master/website/img/H2_Aufmerksamkeit_166px.jpg?raw=true");
+  background-image: url("../img/H2_Aufmerksamkeit_166px.jpg");
   height: 500px;
   width: 166px;
 }
 
 #slim-background-image3 {
-  background-image: url("https://github.com/dk248/Didaktik/blob/master/website/img/H3_Komplexität_166px.png?raw=true");
+  background-image: url("../img/H3_Komplexität_166px.png");
   height: 500px;
   width: 166px;
 }
