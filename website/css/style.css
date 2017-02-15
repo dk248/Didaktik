@@ -220,21 +220,21 @@ div.panel {
 }
 
 #slim-background-image1 {
-  background-image: url("../img/H1_Motivation_166px.png");
+  background-image: url("../img/motivation_166px.jpg");
   height: 500px;
   width: 166px;
 }
 
 #slim-background-image2 {
-  background-image: url("../img/H2_Aufmerksamkeit_166px.jpg");
-  height: 500px;
-  width: 166px;
+  background-image: url("../img/aufmerksamkeit_v250px.jpg");
+  height: 250px;
+  width: 332px;
 }
 
 #slim-background-image3 {
-  background-image: url("../img/H3_Komplexität_166px.png");
-  height: 500px;
-  width: 166px;
+  background-image: url("../img/komplexitaet_v250px.jpg");
+  height: 250px;
+  width: 332px;
 }
 
 #contact-bg-img {
