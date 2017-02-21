@@ -83,6 +83,8 @@ ul.topnav {
 }
 
 ul.topnav li {float: left;}
+li#contact {float: right;}
+li#impressum {float: right;}
 
 ul.topnav li a, .dropbtn {
   display: inline-block;
@@ -131,6 +133,8 @@ ul.topnav li.icon {display: none;}
     float: right;
     display: inline-block;
   }
+  li#contact #impressum {float: left;}
+
 }
 
 @media screen and (max-width:680px) {
