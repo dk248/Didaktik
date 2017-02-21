@@ -24,3 +24,23 @@ function header() {
           x.className = "topnav";
       }
   }
+
+function passWord() {
+    var testV = 1;
+    var pass1 = prompt('Bitte verifiziere dich um Zugriff auf die Lernumgebung zu bekommen. Wie lautet das Passwort?','Passwort');
+    while (testV < 3) {
+        if (!pass1) 
+        history.go(-1);
+        if (pass1.toLowerCase() == "didacta") {
+            alert('You Got it Right!');
+            window.open('lern.html');
+            break;
+        } 
+        testV+=1;
+        var pass1 = 
+        prompt('Access Denied - Passwort Incorrect, Please Try Again.','Passwort');
+    }
+    if (pass1.toLowerCase()!="password" & testV ==3) 
+    history.go(-1);
+    return " ";
+} 
