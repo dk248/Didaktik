@@ -35,15 +35,21 @@ body {
 /* Welcome-Title-Style */
 .title-super {
   font-size: 40px;
-}
-
-.title {
   display: block;
   padding: 15px 20px;
   color: #F1ECEC;
-  text-align: center;
+  text-align: center;
+}
+
+.title {
   background-color: green;
-  font-style: "verdana"
+}
+
+.challenge-title {
+  background-color: rgba(127, 127, 127, 0.70);
+  margin-left: 25%;
+  margin-right: 25%;
+
 }
 
 .title-mittel {
