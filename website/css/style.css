@@ -296,28 +296,43 @@ input[type=submit]:hover {
 #big-background-image {
   background-image:url("../img/1.jpg_500px.jpg");
   background-size: cover;
-  height: 300px;
+  height: 500px;
 }
 
 #slim-background-image1 {
   background-image: url("../img/motivation_166px.jpg");
   background-size: cover;
-  height: 300px;
+  height: 500px;
 }
 
 #slim-background-image2 {
   background-image: url("../img/aufmerksamkeit_v250px.jpg");
   background-size: cover;
-  height: 150px;
+  height: 250px;
 }
 
 #slim-background-image3 {
   background-image: url("../img/komplexitaet_v250px.jpg");
   background-size: cover;
-  height: 150px;
+  height: 250px;
 }
 
-@media screen and (max-width:680px) {
+@media screen and (max-width:991px) {
+  #slim-background-image2 {
+    height: 500px;
+  }
+  #slim-background-image3 {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  #big-background-image {
+    height: 300px;
+  }
+  #slim-background-image1 {
+    height: 300px;
+  }
   #slim-background-image2 {
     height: 300px;
   }
