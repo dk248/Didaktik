@@ -1,31 +1,31 @@
 <footer>
 	<!-- Contactform -->
 	<div class="row">
-		<div class="col-md-12">
-			<section class="img-responsive" id="contact-bg-img" alt="Contact Image">
-				<h2 class="text-center no-margin">Stell uns deine Fragen oder sende uns dein eigenes Problem.</h2>
-				<h2 class="text-uppercase text-center">Jetzt kontaktieren</h2>
-					<form class="form-horizontal">
-						<div class="form-group">
-							<label for="exampleInputName3">Dein Name</label>
-							<input type="name" class="form-control" id="exampleInputName3" placeholder="Dein Name">
-						</div>
-						<div class="form-group">
-							<label for="exampleInputEmail3">Email address</label>
-							<input type="email" class="form-control" id="exampleInputEmail3" placeholder="E-Mail">
-						</div>
-						<label for="exampleInputEmail3">Deine Nachricht</label>
-						<textarea class="form-control" rows="3" placeholder="Erläutere hier deine Fragen oder dein Problem."></textarea>
-						<button type="submit" class="btn btn-default">Senden</button>
-					</form>
-			</section>
-		</div>
+		<section class="img-responsive" id="contact-bg-img" alt="Contact Image">
+			<h2 class="text-center no-margin">Stell uns deine Fragen oder sende uns dein eigenes Problem.</h2>
+			<h2 class="text-uppercase text-center">Jetzt kontaktieren</h2>
+			<form class="form" action="contact.php" method="post">
+				<div class="col-md-12">
+					<label for="exampleInputName3">Dein Name</label>
+				<input type="text" class="form-control" id="exampleInputName3" name="name" placeholder="Dein Name">
+				</div>
+				<div class="col-md-12">
+					<label for="exampleInputEmail3">Email address</label>
+				<input type="text" class="form-control" id="exampleInputEmail3" name="mail" placeholder="E-Mail">
+				</div>
+				<div class="col-md-12">
+					<label for="exampleInputEmail3">Deine Nachricht</label>
+				</div>
+				<textarea class="form-control" rows="3" name="text" placeholder="Erläutere hier deine Fragen oder dein Problem."></textarea>
+				<button type="submit" class="btn btn-default">Senden</button>
+			</form>
+		</section>
 	</div>
 	<!-- Hier kommt der Footer rein-->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<div class="row footer">
 		<div class="col-md-9">
-			<p>Impressum</p>
+			<li><a id="impressum" href="#impressum">Impressum</a></li>
 		</div>
 		<div class="col-md-1">
 			<a href="#" class="fa fa-facebook"></a>

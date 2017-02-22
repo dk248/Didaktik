@@ -217,6 +217,35 @@ div.panel {
     transition: max-height 0.2s ease-out;
 }
 
+/* Contact-Form */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.form {
+    background-color: rgba(242, 242, 242, 0.7);
+    padding: 20px;
+}
+
 /* Footer */
 .footer {
 	display: block;
@@ -266,30 +295,38 @@ div.panel {
 
 #big-background-image {
   background-image:url("../img/1.jpg_500px.jpg");
-  height: 500px;
-  width: 500px;
+  background-size: cover;
+  height: 300px;
 }
 
 #slim-background-image1 {
   background-image: url("../img/motivation_166px.jpg");
-  height: 500px;
-  width: 166px;
+  background-size: cover;
+  height: 300px;
 }
 
 #slim-background-image2 {
   background-image: url("../img/aufmerksamkeit_v250px.jpg");
-  height: 250px;
-  width: 332px;
+  background-size: cover;
+  height: 150px;
 }
 
 #slim-background-image3 {
   background-image: url("../img/komplexitaet_v250px.jpg");
-  height: 250px;
-  width: 332px;
+  background-size: cover;
+  height: 150px;
+}
+
+@media screen and (max-width:680px) {
+  #slim-background-image2 {
+    height: 300px;
+  }
+  #slim-background-image3 {
+    height: 300px;
+  }
 }
 
 #contact-bg-img {
-  background-image: url(http://placehold.it/1000x300);
-  height: 300px;
-  width: 1000px;
+  background-image: url("/img/img_parallax.jpg");
+  background-size: cover;
 }
