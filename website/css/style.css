@@ -66,8 +66,8 @@ body {
   padding: 10px 15px;
   color: rgb(0,0,0);
   text-align: center;
-  font-size: 18px;
-  font-weight: bold;
+  font-size: 20px;
+  font-weight: 900;
   font-style: "verdana"
 }
 
@@ -280,7 +280,7 @@ input[type=submit]:hover {
   cursor: pointer;
   transform: translate(-50%, 0%);
   margin-left: 50%;
-} 
+}
 .btn-default:hover {background: #3e8e41;}
 
 /* Footer */
