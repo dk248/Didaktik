@@ -34,9 +34,9 @@ body {
 
 /* Welcome-Title-Style */
 .title-super {
-  font-size: 40px;
+  font-size: 20px;
   display: block;
-  padding: 15px 20px;
+  padding: 10px;
   color: #F1ECEC;
   text-align: center;
 }
