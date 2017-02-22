@@ -160,12 +160,7 @@ ul.topnav li.icon {display: none;}
   }
 }
 
-/* Spezieller Header für Herausforderungen */
-#header-ch {
-    margin-top: 248px;
-    background-color: rgba(127, 127, 127, 0.7);
-}
-
+/* Titelbild für Herausforderungen */
 .title-picture {
     /* The image used */
     background-image: url('/img/img_parallax.jpg');
@@ -247,21 +242,42 @@ input[type=submit]:hover {
 }
 
 /* Footer */
-.footer {
-	display: block;
-	padding: 15px 20px;
-	font-weight: 700;
-	color: #fff;
-	background-color: #7f7f7f;
+ul.fotnav {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+}
+
+ul.fotnav li {float: left;}
+
+ul.fotnav li a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+ul.fotnav li a:hover {background-color: #3e8e41;}
+
+#footer {
+  margin: 0;
+  padding: 15px 20px;
+  background-color: #7f7f7f;
+}
+
+#socials {
+  float: right;
+  font-size: 24px;
 }
 
 .fa {
-  padding: 10px;
-  font-size: 30px;
-  width: 40px;
+  width: 70px;
   text-align: center;
   text-decoration: none;
-  margin: 5px 2px;
+  margin: 0px 5px;
 }
 
 .fa:hover {
