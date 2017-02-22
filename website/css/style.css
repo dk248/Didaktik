@@ -241,6 +241,20 @@ input[type=submit]:hover {
     padding: 20px;
 }
 
+.btn-default {
+  background-color: #7f7f7f;
+  color: white;
+  border: none;
+  padding: 14px 28px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  transform: translate(-50%, 0%);
+  margin-left: 50%;
+} 
+.btn-default:hover {background: #3e8e41;}
+
 /* Footer */
 ul.fotnav {
   list-style-type: none;
