@@ -160,10 +160,38 @@ ul.topnav li.icon {display: none;}
   }
 }
 
-/* Titelbild für Herausforderungen */
-.title-picture {
+/* Titelbild für Motivation */
+.motivation-picture {
     /* The image used */
-    background-image: url('/img/img_parallax.jpg');
+    background-image: url('../img/motivation_wide.jpg');
+
+    /* Full height */
+    height: 300px;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Titelbild für Aufmerksamkeit */
+.attetion-picture {
+    /* The image used */
+    background-image: url('../img/Aufmerksamkeit.jpg');
+
+    /* Full height */
+    height: 300px;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Titelbild für Komplexität */
+.complexity-picture {
+    /* The image used */
+    background-image: url('../img/komplexität.jpg');
 
     /* Full height */
     height: 300px;
@@ -361,6 +389,7 @@ ul.fotnav li a:hover {background-color: #3e8e41;}
     height: 300px;
   }
   #slim-background-image1 {
+    background-image: url("../img/motivation_wide.jpg");
     height: 300px;
   }
   #slim-background-image2 {
