@@ -1,3 +1,28 @@
+/* Dynamic top menu positioning */
+
+var num = 300; //number of pixels before modifying styles
+
+$(window).bind('scroll', function () {
+    if ($(window).scrollTop() > num) {
+        $('.topnav').addClass('fixed');
+    } else {
+        $('.topnav').removeClass('fixed');
+    }
+});
+
+/* Responsive Header */
+
+function header() {
+      var x = document.getElementById("header");
+      if (x.className === "topnav") {
+          x.className += " responsive";
+      } else {
+          x.className = "topnav";
+      }
+  }
+
+// Accordion
+
 $(function() {
 	// Enable accordion
 	var acc = document.getElementsByClassName("accordion");
@@ -16,14 +41,7 @@ $(function() {
 
 });
 
-function header() {
-      var x = document.getElementById("header");
-      if (x.className === "topnav") {
-          x.className += " responsive";
-      } else {
-          x.className = "topnav";
-      }
-  }
+// Password Protection
 
 function passWord() {
     var testV = 1;
@@ -45,3 +63,15 @@ function passWord() {
 	alert('Access Denied - Password three times incorrect.');
     return " ";
 } 
+
+/* Dynamic top menu positioning */
+
+var num = 50; //number of pixels before modifying styles
+
+$(window).bind('scroll', function () {
+    if ($(window).scrollTop() > num) {
+        $('.menu').addClass('fixed');
+    } else {
+        $('.menu').removeClass('fixed');
+    }
+});
