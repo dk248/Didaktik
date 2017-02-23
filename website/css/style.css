@@ -54,9 +54,22 @@ body {
 
 .title-mittel {
   display: block;
-  padding: 10px 15px;
+  margin: 10px;
+  position: absolute;
+  top: 25%; left: 0; bottom: 0; right: 0;
+  text-align: center;
   color: #F1ECEC;
-  text-align: center;
+  font-size: 25px;
+  font-style: "verdana"
+}
+
+.title-mittel2 {
+  display: block;
+  margin: 10px;
+  position: absolute;
+  top: 40%; left: 0; bottom: 0; right: 0;
+  text-align: center;
+  color: #F1ECEC;
   font-size: 25px;
   font-style: "verdana"
 }
@@ -91,11 +104,8 @@ body {
   margin: 20px;
 }
 
-.Absolute-Center {
-  margin: auto;
-  position: absolute;
-  top: 0; left: 0; bottom: 0; right: 0;
-}
+
+
 
 /* Dropdown Navbar */
 
