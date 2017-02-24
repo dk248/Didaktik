@@ -120,22 +120,22 @@ body {
 }
 @media screen and (max-width: 1200px) {
   .fixed {
-    width: 1000px;
+    width: 970px;
   }
 }
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .fixed {
-    width: 1170px;
+    width: 1000px;
   }
 }
 @media screen and (max-width: 992px) {
   .fixed {
-    width: 970px;
+    width: 750px;
   }
 }
 @media screen and (max-width: 768px) {
   .fixed {
-    width: 750px;
+    width: 100%;
   }
 }
 
