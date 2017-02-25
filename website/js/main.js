@@ -55,11 +55,9 @@ function passWord() {
             break;
         } 
         testV+=1;
-        var pass1 = 
-        prompt('Access Denied - Password Incorrect, Please Try Again.','Passwort');
+        var pass1 = prompt('Access Denied - Password Incorrect, Please Try Again.','Passwort');
     }
-    if (pass1.toLowerCase()!="password" & testV ==3) 
-    history.go(-0);
+    if (testV ==3) 
 	alert('Access Denied - Password three times incorrect.');
     return " ";
 } 
