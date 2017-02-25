@@ -28,3 +28,43 @@ Erklärung der Website-Orderstruktur:
 - [Prototyp 2](Prototyp_2_final.docx) - optimiert - nicht voll funktionsfähig
 
 Auf eine tolle Projektarbeit! Cheers :)
+
+
+
+
+
+
+Update: To-Do-List ab 25.02.17
+
+Startseite:
+-Feedback: Was passt noch nicht?
+
+
+Lernumgebung:
+-Lernumgebung einbinden. Wie macht man das? Mail an Christian?
+
+
+Herausforderungen:
+-Aufmerksamkeit und Komplexität gestalten
+
+
+
+Kontaktformular:
+
+
+
+
+Impressum:
+-Rechtliche Vorlage suchen
+-Seite erstellen
+
+
+
+Header:
+-Weniger Durchsichtig machen
+-mehr in den Fordergrund holen,
+
+
+
+Footer:
+-Die Logos verknüpfen. Wie macht man das? Mail an Christian?
