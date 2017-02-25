@@ -1,4 +1,4 @@
-/* Dynamic top menu positioning */
+/* Dynamic top menu positioning
 
 var num = 300; //number of pixels before modifying styles
 
@@ -9,6 +9,8 @@ $(window).bind('scroll', function () {
         $('.topnav').removeClass('fixed');
     }
 });
+
+*/
 
 /* Responsive Header */
 
@@ -61,15 +63,3 @@ function passWord() {
 	alert('Access Denied - Password three times incorrect.');
     return " ";
 } 
-
-/* Dynamic top menu positioning */
-
-var num = 50; //number of pixels before modifying styles
-
-$(window).bind('scroll', function () {
-    if ($(window).scrollTop() > num) {
-        $('.menu').addClass('fixed');
-    } else {
-        $('.menu').removeClass('fixed');
-    }
-});
