@@ -203,7 +203,7 @@ ul.topnav li.icon {display: none;}
 /* Titelbild für Motivation */
 .motivation-picture {
     /* The image used */
-    background-image: url('../img/motivation_wide.jpg');
+    background-image: url('/img/motivation_wide.jpg');
 
     /* Full height */
     height: 300px;
@@ -217,7 +217,7 @@ ul.topnav li.icon {display: none;}
 /* Titelbild für Aufmerksamkeit */
 .attetion-picture {
     /* The image used */
-    background-image: url('../img/Aufmerksamkeit.jpg');
+    background-image: url('/img/Aufmerksamkeit.jpg');
 
     /* Full height */
     height: 300px;
@@ -231,7 +231,7 @@ ul.topnav li.icon {display: none;}
 /* Titelbild für Komplexität */
 .complexity-picture {
     /* The image used */
-    background-image: url('../img/komplexität.jpg');
+    background-image: url('/img/komplexität.jpg');
 
     /* Full height */
     height: 300px;
@@ -431,7 +431,7 @@ ul.fotnav li a:hover {background-color: #3e8e41;}
 }
 
 #big-background-image {
-  background-image:url("../img/1.jpg_500px.jpg");
+  background-image:url("/img/1.jpg_500px.jpg");
   background-size: cover;
   opacity: 0.95;
   filter: alpha(opacity=50); /* For IE8 and earlier */
@@ -439,7 +439,7 @@ ul.fotnav li a:hover {background-color: #3e8e41;}
 }
 
 #slim-background-image1 {
-  background-image: url("../img/motivation_166px.jpg");
+  background-image: url("/img/motivation_166px.jpg");
   background-size: cover;
   opacity: 0.85;
   filter: alpha(opacity=50); /* For IE8 and earlier */
@@ -447,7 +447,7 @@ ul.fotnav li a:hover {background-color: #3e8e41;}
 }
 
 #slim-background-image2 {
-  background-image: url("../img/aufmerksamkeit_v250px.jpg");
+  background-image: url("/img/aufmerksamkeit_v250px.jpg");
   background-size: cover;
   opacity: 0.85;
   filter: alpha(opacity=50); /* For IE8 and earlier */
@@ -456,9 +456,9 @@ ul.fotnav li a:hover {background-color: #3e8e41;}
 }
 
 #slim-background-image3 {
-  background-image: url("../img/komplexitaet_v250px.jpg");
+  background-image: url("/img/komplexitaet_v250px.jpg");
   background-size: cover;
-  opacity: 0.8;
+  opacity: 0.85;
   filter: alpha(opacity=50); /* For IE8 and earlier */
   height: 250px;
 }
@@ -477,7 +477,7 @@ ul.fotnav li a:hover {background-color: #3e8e41;}
     height: 300px;
   }
   #slim-background-image1 {
-    background-image: url("../img/motivation_wide.jpg");
+    background-image: url("/img/motivation_wide.jpg");
     height: 300px;
   }
   #slim-background-image2 {
