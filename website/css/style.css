@@ -81,7 +81,7 @@ body {
   color: black;
   font-size: 20px;
   font-weight: 900;
-  background-color: rgba(242, 242, 242, 0.7);
+  background-color: rgba(242, 242, 242, 0.75);
 }
 
 .title-logo {
@@ -433,15 +433,13 @@ ul.fotnav li a:hover {background-color: #3e8e41;}
 #big-background-image {
   background-image:url("/img/1.jpg_500px.jpg");
   background-size: cover;
-  opacity: 0.95;
-  filter: alpha(opacity=50); /* For IE8 and earlier */
   height: 500px;
 }
 
 #slim-background-image1 {
   background-image: url("/img/motivation_166px.jpg");
   background-size: cover;
-  opacity: 0.85;
+  /* opacity: 0.85;
   filter: alpha(opacity=50); /* For IE8 and earlier */
   height: 500px;
 }
@@ -449,16 +447,15 @@ ul.fotnav li a:hover {background-color: #3e8e41;}
 #slim-background-image2 {
   background-image: url("/img/aufmerksamkeit_v250px.jpg");
   background-size: cover;
-  opacity: 0.85;
+  /* opacity: 0.85;
   filter: alpha(opacity=50); /* For IE8 and earlier */
   height: 250px;
-}
 }
 
 #slim-background-image3 {
   background-image: url("/img/komplexitaet_v250px.jpg");
   background-size: cover;
-  opacity: 0.85;
+  /* opacity: 0.85;
   filter: alpha(opacity=50); /* For IE8 and earlier */
   height: 250px;
 }
