@@ -47,7 +47,7 @@ body {
 }
 
 .title {
-  background-color: green;
+  background-color: #2b6e2b;
 }
 
 .challenge-title {
@@ -427,7 +427,7 @@ ul.fotnav li a:hover {background-color: #3e8e41;}
 }
 
 #website-background-image {
-  background-image: linear-gradient(20deg, transparent, #303B4F);
+  background-color: #eeeeee;
 }
 
 #big-background-image {
