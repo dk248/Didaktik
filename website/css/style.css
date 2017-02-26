@@ -51,6 +51,16 @@ body {
   background-color: #2b6e2b;
 }
 
+.title-einfuehrung {
+  font-size: 20px;
+  display: block;
+  padding: 10px;
+  color: #F1ECEC;
+  text-align: center;
+  background-color: #690A1C;
+  opacity: 0.88;
+}
+
 .challenge-title {
   background-color: rgba(127, 127, 127, 0.70);
   margin-left: 25%;
