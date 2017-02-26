@@ -4,6 +4,7 @@ body {
   font-family: 'Lato', sans-serif;
   color: black;
   font-weight: 300;
+  background-color: white;
 }
 
 @media (min-width: 1200px) {
@@ -423,11 +424,7 @@ ul.fotnav li a:hover {background-color: #3e8e41;}
 }
 
 #margin_H1 {
-  margin: 2% 8% 2%
-}
-
-#website-background-image {
-  background-color: #eeeeee;
+  margin: 2% 8% 2%;
 }
 
 #big-background-image {
