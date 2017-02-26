@@ -95,6 +95,10 @@ body {
   background-color: rgba(242, 242, 242, 0.75);
 }
 
+.blocksatz {
+  text-align: justify;
+}
+
 .title-logo {
   margin: 20px;
 }
