@@ -82,6 +82,17 @@ body {
   font-family: "coloredCrayons";
 }
 
+.title-mittel-unter {
+  display: block;
+  margin: 10px;
+  position: absolute;
+  top: 40%; left: 0; bottom: 0; right: 0;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  font-family: "coloredCrayons";
+}
+
 .title-small {
   display: block;
   margin: 10px;
@@ -90,9 +101,30 @@ body {
   top: 25%; left: 0; right: 0;
   text-align: center;
   color: black;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 900;
-  background-color: rgba(242, 242, 242, 0.75);
+}
+
+.title-small-unter {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 35%; left: 0; right: 0;
+  text-align: center;
+  color: black;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.schriftbalken {
+  background-color: rgba(242, 242, 242, 0.85);
+  height: 100px;
+}
+
+.schriftbalken-light {
+  background-color: rgba(242, 242, 242, 0.4);
+  height: 100px;
 }
 
 .blocksatz {
