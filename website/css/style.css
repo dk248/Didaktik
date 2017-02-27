@@ -319,11 +319,8 @@ button.accordion.active:after {
     content: "\2212";
 }
 
-.margin-accordion {
-  margin-top: 5px;
-  margin-bottom: 5px;
-  margin-right: none;
-  margin-left: none;
+button.margin-accordion {
+  margin-bottom: 0px;
 }
 
 div.panel {
