@@ -64,6 +64,8 @@ body {
     margin: 10px;
     background-color: rgba(242, 242, 242, 0.85);
     height: auto;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 .text-padding {
