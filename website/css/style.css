@@ -62,7 +62,7 @@ body {
 
 .title-text-einleitung {
     margin: 10px;
-    background-color: rgba(242, 242, 242, 0.85);
+    background-color: rgba(242, 242, 242, 0.7);
     height: auto;
     font-weight: bold;
     font-size: 18px;
@@ -129,12 +129,12 @@ body {
 }
 
 .schriftbalken {
-  background-color: rgba(242, 242, 242, 0.85);
+  background-color: rgba(242, 242, 242, 0.9);
   height: 100px;
 }
 
 .schriftbalken-light {
-  background-color: rgba(242, 242, 242, 0.4);
+  background-color: rgba(242, 242, 242, 0.5);
   height: 100px;
 }
 
