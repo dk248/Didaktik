@@ -66,6 +66,10 @@ body {
     height: auto;
 }
 
+.text-padding {
+    padding: 10px
+}
+
 .challenge-title {
   background-color: rgba(127, 127, 127, 0.70);
   margin-left: 25%;
