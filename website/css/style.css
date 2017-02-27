@@ -52,13 +52,18 @@ body {
   background-color: #690A1C;
 }
 
-.title-einfuehrung {
+.title-einleitung {
   font-size: 20px;
   display: block;
   padding: 10px;
-  color: #F1ECEC;
+  color: #000000;
   text-align: center;
-  background-color: #690A1C;
+}
+
+.title-text-einleitung {
+    margin: 10px;
+    background-color: rgba(242, 242, 242, 0.85);
+    height: auto;
 }
 
 .challenge-title {
