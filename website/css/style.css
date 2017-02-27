@@ -296,7 +296,7 @@ ul.topnav li.icon {display: none;}
 /* Titelbild für Impressum */
 .impressum-picture {
     /* The image used */
-    background-image: url('http://www.picavia.com/solunoglu/images/impressum1.jpg');
+    background-image: url('/img/impressum1.jpg');
 
     /* Full height */
     height: 300px;
