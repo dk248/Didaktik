@@ -170,7 +170,7 @@ body {
 ul.topnav {
   list-style-type: none;
   padding: 0;
-  overflow: hidden;
+  overflow: visible;
 }
 
 ul.topnav li {float: left;}
