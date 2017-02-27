@@ -49,7 +49,7 @@ body {
 }
 
 .title {
-  background-color: #2b6e2b;
+  background-color: #690A1C;
 }
 
 .title-einfuehrung {
@@ -492,6 +492,11 @@ ul.fotnav li a:hover {background-color: #3e8e41;}
 
 #margin_H1 {
   margin: 2% 8% 2%;
+}
+
+#einleitung-image {
+  background-image:url("/img/einleitung.jpg");
+  background-size: cover;
 }
 
 #big-background-image {
