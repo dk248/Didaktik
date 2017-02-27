@@ -53,7 +53,7 @@ function passWord() {
         history.go(-0);
         if (pass1.toLowerCase() == "didacta") {
             alert('You Got it Right!');
-            window.open('lern.html');
+            window.open('/lern/story_html5.html');
             break;
         } 
         testV+=1;
