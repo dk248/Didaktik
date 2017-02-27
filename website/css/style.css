@@ -291,7 +291,7 @@ ul.topnav li.icon {display: none;}
 
 /* Accordion */
 button.accordion {
-    background-color: #eee;
+    background-color: #ddd;
     color: #444;
     cursor: pointer;
     padding: 5px;
@@ -304,7 +304,8 @@ button.accordion {
 }
 
 button.accordion.active, button.accordion:hover {
-    background-color: #ddd;
+    background-color: #3e8e41;
+    color: white;
 }
 
 button.accordion:after {
