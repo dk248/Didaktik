@@ -5,6 +5,7 @@ body {
   color: black;
   font-weight: 300;
   background-color: #F2F2F2;
+  font-size: medium;
 }
 
 @media (min-width: 1200px) {
