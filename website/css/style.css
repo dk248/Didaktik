@@ -29,6 +29,13 @@ body {
   margin: 0;
 }
 
+.margin-accordion {
+  margin-top: 5px;
+  margin-bottom:5px;
+  margin-right: none;
+  margin-left: none;
+}
+
 /* Text-Style */
 .text-muted {
   color: #BCBBBB;
