@@ -83,6 +83,13 @@ body {
   color: black;
 }
 
+@media screen and (max-width:680px) {
+    .challenge-title {
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+}
+
 .title-mittel {
   display: block;
   margin: 10px;
@@ -319,7 +326,7 @@ ul.topnav li.icon {display: none;}
     background-size: cover;
 }
 
-/* Titelbild für Über das Projekt */
+/* Titelbild für "Über das Projekt" */
 .über-picture {
     /* The image used */
     background-image: url('/img/über.jpg');
