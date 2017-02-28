@@ -357,6 +357,8 @@ div.panel {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+    font-weight: 600;
+    color: #444;
 }
 
 /* Contact-Form */
