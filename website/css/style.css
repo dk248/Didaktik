@@ -319,6 +319,20 @@ ul.topnav li.icon {display: none;}
     background-size: cover;
 }
 
+/* Titelbild für Über das Projekt */
+.über-picture {
+    /* The image used */
+    background-image: url('/img/über.jpg');
+
+    /* Full height */
+    height: 300px;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /* Accordion */
 button.accordion {
     background-color: #ddd;
