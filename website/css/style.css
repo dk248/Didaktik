@@ -160,6 +160,7 @@ body {
 #header {
   margin: 0;
   background-color: #7f7f7f;
+  font-weight: 600;
 }
 
 .fixed {
