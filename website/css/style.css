@@ -79,6 +79,7 @@ body {
   margin-top: 50px;
   font-weight: 600;
   font-size: xx-large;
+  width: auto;
   color: black;
 }
 
@@ -130,12 +131,12 @@ body {
 
 .schriftbalken {
   background-color: rgba(242, 242, 242, 0.9);
-  height: 100px;
+  height: auto;
 }
 
 .schriftbalken-light {
   background-color: rgba(242, 242, 242, 0.5);
-  height: 100px;
+  height: auto;
 }
 
 .blocksatz {
@@ -268,7 +269,7 @@ ul.topnav li.icon {display: none;}
     background-image: url('/img/motivation_wide.jpg');
 
     /* Full height */
-    height: 300px;
+    height: auto;
 
     /* Center and scale the image nicely */
     background-position: center;
@@ -282,7 +283,7 @@ ul.topnav li.icon {display: none;}
     background-image: url('/img/Aufmerksamkeit.jpg');
 
     /* Full height */
-    height: 300px;
+    height: auto;
 
     /* Center and scale the image nicely */
     background-position: center;
@@ -296,7 +297,7 @@ ul.topnav li.icon {display: none;}
     background-image: url('/img/komplexität.jpg');
 
     /* Full height */
-    height: 300px;
+    height: auto;
 
     /* Center and scale the image nicely */
     background-position: center;
