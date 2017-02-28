@@ -88,6 +88,7 @@ body {
     .challenge-title {
       margin-left: 10%;
       margin-right: 10%;
+      font-size: larger;
     }
 }
 
@@ -355,7 +356,8 @@ button.accordion {
     font-size: 18px;
     font-weight: 600;
     transition: 0.4s;
-    height: 50px;
+    height: auto;
+    min-height: 50px;
 }
 
 button.accordion.active, button.accordion:hover {
@@ -430,6 +432,15 @@ input[type=submit]:hover {
   padding: 5px;
   font-weight: 700;
   font-size: 25px;
+}
+
+@media screen and (max-width:680px) {
+    .contact-text {
+      font-size: 20px;
+    }
+    .contact-now {
+      font-size: 15px;
+    }
 }
 
 .btn-default {
